@@ -10,5 +10,12 @@
 
   <body>
     <%= yield %>
+    
+    <div class="container">
+      <%= render 'latyouts/flash_messages' %>
+      
+      <%= yield %>
+      
+    </div>
   </body>
 </html>
