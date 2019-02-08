@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
         root to: 'messages#index'
-        
-        resoures :messages
+        resources :messages
 end
